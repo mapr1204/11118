@@ -1,0 +1,12 @@
+{
+  "input_mode": "differential",
+  "daq_voltage_range": "±10 V",
+  "sampling_interval_seconds": 15,
+  "transmission_interval_seconds": 15,
+  "note": "Channel mapping and correction coefficients are placeholders, not recovered experimental settings.",
+  "channels": [
+    {"name": "PT3", "voltage_min": 1, "voltage_max": 5, "engineering_min": 0, "engineering_max": 6, "units": "bar"},
+    {"name": "LE2", "voltage_min": 1, "voltage_max": 5, "engineering_min": 0, "engineering_max": 300, "units": "L"},
+    {"name": "TE2", "voltage_min": 1, "voltage_max": 5, "engineering_min": 20, "engineering_max": 60, "units": "degC"}
+  ]
+}

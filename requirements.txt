@@ -1,0 +1,4 @@
+requests>=2.31,<3
+matplotlib>=3.7,<4
+# MCC 128 acquisition requires the vendor's daqhats Python package and system libraries.
+# Install following the MCC DAQ HAT vendor documentation on Raspberry Pi OS.
